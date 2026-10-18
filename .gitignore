@@ -1,0 +1,17 @@
+# Ignorar archivos de prueba
+main.c
+test.c
+test
+
+# Ignorar objetos y archivos de la librería
+*.o
+*.a
+
+# Ignorar ejecutables y logs de valgrind
+*.out
+*.log
+vgcore.*c
+
+# Ignorar archivos de intercambio de vim
+*.swp
+*.swo
